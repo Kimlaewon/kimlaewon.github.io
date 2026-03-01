@@ -1,0 +1,20 @@
+.desktop {
+  background-color: #ffffff;
+  width: 100%;
+  min-width: 1440px;
+  min-height: 1024px;
+  display: flex;
+}
+
+.desktop .text-wrapper {
+  margin-top: 473px;
+  width: 599px;
+  height: 77px;
+  margin-left: 420px;
+  font-family: "Inter-Medium", Helvetica;
+  font-weight: 500;
+  color: #000000;
+  font-size: 64px;
+  letter-spacing: 0;
+  line-height: normal;
+}
