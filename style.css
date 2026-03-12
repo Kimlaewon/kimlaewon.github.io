@@ -1,20 +1,124 @@
-.desktop {
-  background-color: #ffffff;
-  width: 100%;
-  min-width: 1440px;
-  min-height: 1024px;
-  display: flex;
+@font-face {
+  font-family: 'PretendardEB'; /* 폰트 이름 정의 */
+  src: url('fonts/Pretendard-ExtraBold.woff') format('woff');
 }
 
-.desktop .text-wrapper {
-  margin-top: 473px;
-  width: 599px;
-  height: 77px;
-  margin-left: 420px;
-  font-family: "Inter-Medium", Helvetica;
-  font-weight: 500;
-  color: #000000;
-  font-size: 64px;
-  letter-spacing: 0;
-  line-height: normal;
+@font-face {
+  font-family: 'PretendardR'; /* 폰트 이름 정의 */
+  src: url('fonts/Pretendard-Regular.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'PretendardSB'; /* 폰트 이름 정의 */
+  src: url('fonts/Pretendard-SemiBold.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'D2Coding'; /* 폰트 이름 정의 */
+  src: url('fonts/D2Coding.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'D2CodingB'; /* 폰트 이름 정의 */
+  src: url('fonts/D2CodingBold.woff') format('woff');
+}
+
+body{
+  margin:0;
+  font-family:sans-serif;
+}
+
+.header{
+  position:fixed;
+  top:0;
+  left:0;
+
+  width:calc(100% - 100px);
+  height:70px;
+
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+
+  padding:0 80px;
+
+  background:white;
+
+  box-shadow:0 2px 10px rgba(0,0,0,0.05);
+
+  z-index:100;
+}
+
+.logo{
+  font-size:20px;
+  font-weight:600;
+}
+
+nav{
+  display:flex;
+  gap:40px;
+}
+
+nav a{
+  text-decoration:none;
+  color:black;
+  font-size:16px;
+  position:relative;
+}
+
+nav a::after{
+  content:"";
+  position:absolute;
+  left:0;
+  bottom:-5px;
+
+  width:0;
+  height:2px;
+
+  background:black;
+
+  transition:0.3s;
+}
+
+nav a:hover::after{
+  width:100%;
+}
+
+section{
+  padding:120px 10%;
+}
+
+.hero{
+  height:100vh;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  text-align:center;
+}
+
+.hero h1{
+  font-size:64px;
+}
+
+.grid{
+  display:grid;
+  grid-template-columns:repeat(2,1fr);
+  gap:40px;
+}
+
+.project,
+.experiment{
+  height:300px;
+  background:#ddd;
+}
+
+.about-container{
+  display:flex;
+  gap:60px;
+}
+
+.about-image{
+  width:300px;
+  height:300px;
+  background:#ccc;
 }
