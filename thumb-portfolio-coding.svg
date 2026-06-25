@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" role="img" aria-label="Portfolio Coding thumbnail">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#111018"/>
+      <stop offset="0.5" stop-color="#1c2131"/>
+      <stop offset="1" stop-color="#0f1419"/>
+    </linearGradient>
+  </defs>
+  <rect width="1280" height="720" fill="url(#g)"/>
+  <rect x="130" y="120" width="1020" height="460" rx="34" fill="#ffffff" opacity="0.08"/>
+  <rect x="170" y="165" width="940" height="64" rx="18" fill="#ffffff" opacity="0.1"/>
+  <circle cx="212" cy="197" r="9" fill="#7ee4ff" opacity="0.8"/>
+  <circle cx="242" cy="197" r="9" fill="#8264ff" opacity="0.8"/>
+  <circle cx="272" cy="197" r="9" fill="#ffffff" opacity="0.55"/>
+  <path d="M260 335l-96 82 96 82M1020 335l96 82-96 82" fill="none" stroke="#7ee4ff" stroke-width="26" stroke-linecap="round" stroke-linejoin="round" opacity="0.55"/>
+  <path d="M505 485l270-170" stroke="#ffffff" stroke-width="22" stroke-linecap="round" opacity="0.2"/>
+  <rect x="405" y="336" width="470" height="38" rx="19" fill="#ffffff" opacity="0.16"/>
+  <rect x="445" y="418" width="390" height="38" rx="19" fill="#7ee4ff" opacity="0.18"/>
+  <text x="130" y="670" fill="#ffffff" font-family="Arial, sans-serif" font-size="54" font-weight="700" letter-spacing="-2">PORTFOLIO CODING</text>
+</svg>

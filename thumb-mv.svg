@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" role="img" aria-label="Unofficial MV thumbnail">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#121018"/>
+      <stop offset="0.52" stop-color="#202033"/>
+      <stop offset="1" stop-color="#101013"/>
+    </linearGradient>
+  </defs>
+  <rect width="1280" height="720" fill="url(#g)"/>
+  <rect x="150" y="140" width="980" height="420" rx="42" fill="#ffffff" opacity="0.08"/>
+  <path d="M520 230l245 150-245 150z" fill="#7ee4ff" opacity="0.34"/>
+  <path d="M170 560C360 460 470 620 650 510S890 300 1110 405" fill="none" stroke="#8264ff" stroke-width="42" stroke-linecap="round" opacity="0.2"/>
+  <path d="M210 205h250M210 290h150M830 475h230" stroke="#ffffff" stroke-width="24" stroke-linecap="round" opacity="0.2"/>
+  <text x="150" y="650" fill="#ffffff" font-family="Arial, sans-serif" font-size="54" font-weight="700" letter-spacing="-2">UNOFFICIAL MV</text>
+</svg>
