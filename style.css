@@ -677,19 +677,14 @@ button {
   background: var(--panel-light);
 }
 
-.js .contact-item {
-  min-width: 240px;
-  padding: 28px 32px;
-  border: 1px solid var(--line);
-  border-radius: 16px;
-  background: rgba(25, 25, 28, 0.86);
+.js .contact-item.reveal.active {
   transition:
     transform 0.25s ease,
     background 0.25s ease,
     border-color 0.25s ease;
 }
 
-.js .contact-item:hover {
+.js .contact-item.reveal.active:hover {
   transform: translateY(-6px);
   border-color: rgba(126, 228, 255, 0.28);
   background: var(--panel-light);
